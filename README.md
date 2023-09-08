@@ -37,4 +37,3 @@ To avoid the need for creating such software for Raman from scratch, we took a h
 12.	After a successful Raman imaging, MATLAB will output a 2D plot of the Raman imaging focusing on a single peak.
 13.	If you need to interrupt a measurement: First, stop the MDA sequence in µManager. Then run `interrupt.m` in MATLAB followed by `destructor.m`. This releases and closes any objects related to Light Field or the DAQ board software. Restart MATLAB and redo from 9. 
 14.	To finish measurement and close software: Assuming that the MDA sequence has been completed in µManager, run `destructor.m` and close both MATLAB and µManager.
-![image](https://github.com/kosekijkk/multimodal-raman-acq/assets/7791363/359c5e67-3a7f-4fd0-ae0f-fa5a5b756af5)
